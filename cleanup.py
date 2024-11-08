@@ -9,12 +9,12 @@ def p(n, f):
 
 
 if __name__ == "__main__":
-    p("&", lambda x, y: x and y)
-    p("|", lambda x, y: x or y)
-    p("^", lambda x, y: x ^ y)
+    p("&", lambda x, y: x and y) #et
+    p("|", lambda x, y: x or y)  #ou inclusif
+    p("^", lambda x, y: x ^ y)  #ou exclusif
 
 
-def R(u):
+def met_ordre_alphabet(u):
     """
     TODO
     """
@@ -33,6 +33,6 @@ def R(u):
 
 
 if __name__ == "__main__":
-    print(R("qwertyuiop"))
-    print(R("asdfghjkl"))
-    print(R("zxcvbnm"))
+    print(met_ordre_alphabet("qwertyuiop"))
+    print(met_ordre_alphabet("asdfghjkl"))
+    print(met_ordre_alphabet("zxcvbnm"))
